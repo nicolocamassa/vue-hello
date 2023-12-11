@@ -1,10 +1,10 @@
 const { createApp } = Vue
 
 createApp({
-    setup() {
-        const message = 'Hello world'
+    data() {
         return {
-            message
+            message: 'ciao Mondo!',
+            imagePath: 'https://www.psicosocial.it/wp-content/uploads/2020/10/immagine-fissa-si-muove.jpg'
         }
     }
 }).mount('#app')
